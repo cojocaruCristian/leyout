@@ -27,7 +27,7 @@
 
             button{
                 text-align: center;
-                padding: 15px 69px 12px;
+                padding: 14px 50px 12px;
                 margin: 38px 52px 0 0;
                 border-radius: 100px;
                 width: 286px;
@@ -41,6 +41,8 @@
                 background: #FFFFFF;
                 text-transform: uppercase;
                 color: #001958;
+                box-shadow: noen;
+                
                 
                 
                 
@@ -104,6 +106,7 @@
                     color: #001958;
                     text-transform: uppercase;
                     margin-top: 50px;
+                    // flex-direction: row;
 
                 }
                 #lsa{

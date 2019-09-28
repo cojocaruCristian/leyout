@@ -1,0 +1,175 @@
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+// body{
+//     background: radial-gradient(86.94% 263.61% at 96.88% 15.9%, rgba(0, 25, 88, 0) 0%, #000000 100%);
+// }
+
+.conteiner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .hero-block{
+        height: 100vh;
+        width: 100%;
+        background-image: url('../img/hero-block.svg');
+        background-size: cover;
+        background-image: radial-gradient(86.94% 263.61% at 96.08% 15.9%, rgba(0, 25, 88, 0) 0%, #000000 100%),  url('../img/hero-block.svg');
+        
+
+        
+        // background: radial-gradient(86.94% 263.61% at 96.88% 15.9%, rgba(0, 25, 88, 0) 0%, #000000 100%);
+        .header{
+            display: flex;
+            justify-content: flex-end;
+
+            button{
+                text-align: center;
+                padding: 15px 69px 12px;
+                margin: 38px 52px 0 0;
+                border-radius: 100px;
+                width: 286px;
+                height: 57px;
+                font-family: Poppins ;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 30px;
+                align-items: center;
+                background: #FFFFFF;
+                text-transform: uppercase;
+                color: #001958;
+                
+                
+                
+
+                
+            }
+
+        }
+        .hero-block-information{
+            margin: 160px;
+            margin-top: 0px;
+            display: flex;
+            img{
+                margin-right: 39px;
+                margin-bottom: 165px;
+            }
+            .hero-block-detalies{
+                display: flex;
+                flex-flow: column wrap;
+                span{
+                    color: #FFFFFF;
+                    font-family: Poppins;
+                    
+
+                }
+                .figma_africa{
+                    margin-top:115px
+                }
+                .top{
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 40px;
+                    // line-height: 60px;
+                    line-height: 44px;
+
+                }
+                
+                .bottom{
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 30px;
+
+                }
+                .first{
+                    padding-top: 20px;
+                    margin-top: 1px;
+                    line-height:53px;
+
+                }
+                button{
+                    width: 286px;
+                    height: 57px;
+                    background: #FFFFFF;
+                    border-radius: 100px;
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 30px;
+                    align-items: center;
+                    color: #001958;
+                    text-transform: uppercase;
+                    margin-top: 50px;
+
+                }
+                #lsa{
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 30px;
+                    padding-top: 12px;
+                }
+            }
+
+        }
+    }
+    .conference-details{
+        height: 252px;
+        flex-direction: row;
+
+        h1{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 60px;
+            color: #001958;
+            padding-top: 39px;
+            padding-left: 480px;
+
+
+            
+        }
+        span{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            margin-right: 196px;
+            color: #4F4F4F;
+        }
+        #countries{
+            margin-left: 300px;
+        }
+
+        .numbers{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 75px;
+            color: #828282;
+            
+            
+
+        }
+        #n12{
+            margin-left: 325px;
+        }
+        #n30{
+            margin-left: 26px;
+        }
+        #n120{
+            margin-left: 7px;
+        }
+        
+
+    }
+
+}

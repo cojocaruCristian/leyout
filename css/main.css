@@ -1,0 +1,48 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.conteiner {
+  width: 100%;
+}
+.conteiner .hero-block {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../img/hero-block.svg");
+  background-size: cover;
+}
+.conteiner .hero-block .header {
+  display: flex;
+  justify-content: flex-end;
+}
+.conteiner .hero-block .header button {
+  padding: 15px 69px 12px;
+  margin: 38px 52px 0 0;
+  border-radius: 100px;
+  width: 286px;
+  height: 57px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  align-items: center;
+  background: #FFFFFF;
+}
+.conteiner .hero-block .hero-block-information {
+  margin: 122px;
+  display: flex;
+}
+.conteiner .hero-block .hero-block-information img {
+  margin-right: 39px;
+}
+.conteiner .hero-block .hero-block-information .hero-block-detalies {
+  display: flex;
+  flex-flow: column wrap;
+}
+.conteiner .hero-block .hero-block-information .hero-block-detalies span {
+  color: #FFFFFF;
+  font-family: Poppins;
+}
+
+/*# sourceMappingURL=main.css.map */

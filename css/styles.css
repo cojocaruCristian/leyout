@@ -20,7 +20,7 @@
 }
 .conteiner .hero-block .header button {
   text-align: center;
-  padding: 15px 69px 12px;
+  padding: 14px 50px 12px;
   margin: 38px 52px 0 0;
   border-radius: 100px;
   width: 286px;
@@ -34,6 +34,7 @@
   background: #FFFFFF;
   text-transform: uppercase;
   color: #001958;
+  box-shadow: noen;
 }
 .conteiner .hero-block .hero-block-information {
   margin: 160px;
